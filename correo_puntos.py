@@ -5,8 +5,8 @@ e = 2
 i = 3
 o = 4 
 u = 5"""
-print("Ingrese su correo duoc:")
-correo = input()
+
+correo = input("Ingrese su correo duoc:")
 contador = 0
 for letra in correo: #recorrer el nickname del correo letra por letra
   if letra == "a":
